@@ -1,10 +1,10 @@
 import './App.css';
 import Layout from './Components/Layout/Layout'
-
+import BurgerBuilder from './Containers/BurgerBuilder/burgerBuilder'
 function App() {
   return (
     <Layout>
-      <div>anything you want to display in website</div>
+      <BurgerBuilder/>
     </Layout>
   );
 }
