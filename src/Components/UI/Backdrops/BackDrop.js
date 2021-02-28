@@ -5,8 +5,8 @@ const BackDrop=(props)=>{
     return (
         props.show? 
         <div className={classes.backDrop}
-            onClick={props.clicked}
-        ></div>
+            onClick={props.clicked}>
+        </div>
         : null
     )
 }

@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import BuildControls from '../../Components/Burger/buildControls/BuildControls';
 import Burger from '../../Components/Burger/Burger';
-import Aux from '../../hoc/Auxillary'
+import Aux from '../../hoc/Auxilliary/Auxillary'
 import OrderSummary from '../../Components/Burger/OrderSummary/OrderSummary'
 import Modal from '../../Components/UI/Modals/Modal';
 

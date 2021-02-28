@@ -2,4 +2,11 @@
     margin: 0px;
     padding: 0px;
     display:flex;
+    flex-flow: row;
+}
+
+@media (max-width:499px){
+    .Items{
+        flex-flow: column;
+    }
 }
